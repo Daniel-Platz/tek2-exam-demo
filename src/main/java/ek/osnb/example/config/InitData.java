@@ -31,8 +31,9 @@ public class InitData implements CommandLineRunner {
         Book b9 = new Book("To Kill a Mockingbird", "Harper Lee", "978-0060935467");
         Book b10 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565");
         Book b11 = new Book("The Catcher in the Rye", "J.D. Salinger", "978-0316769488");
+        Book b12 = new Book("The Hobbit", "J.R.R. Tolkien", "978-0547928227");
 
-        bookRepository.saveAll(List.of(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11));
+        bookRepository.saveAll(List.of(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12));
 
 
     }
